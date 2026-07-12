@@ -56,7 +56,7 @@ Para executá-lo, você precisará levantar um pequeno servidor web local:
 4. **Visualização**: Verifique sua Compatibilidade, a Melhor Vaga em destaque, e acesse sua dica de estudos baseada nos requisitos faltantes. O Tema Escuro pode ser ativado a qualquer momento no botão superior.
 
 ## Onde a IA foi usada
-O desenvolvimento da base estrutural foi auxiliado pelo conhecimento do estudante. Recursos de Inteligência Artificial foram utilizados em passos isolados para:
+O desenvolvimento da base estrutural foi feito pelo estudante. Recursos de Inteligência Artificial foram utilizados em passos isolados para:
 - Refatoração rápida e organização do código modular.
 - Implementação inicial e refino dos algoritmos visuais dos Bônus de Filtro e Tema Escuro (CSS e estruturação via `createElement`).
 Tudo foi testado, validado, explicado e ajustado para se adequar ao fluxo do aprendizado contínuo do Módulo 1.
