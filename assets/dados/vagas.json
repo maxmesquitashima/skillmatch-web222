@@ -38,5 +38,125 @@
     "requisitos": ["HTML", "CSS", "JavaScript"],
     "salario": "R$ 1.200,00",
     "modalidade": "Híbrido"
+  },
+  {
+    "id": "v6",
+    "empresa": "TechSphere",
+    "cargo": "Desenvolvedor Front-End Júnior",
+    "requisitos": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    "salario": "R$ 3.200,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v7",
+    "empresa": "CodeCrafters",
+    "cargo": "Desenvolvedor Vue.js",
+    "requisitos": ["HTML", "CSS", "JavaScript", "Vue", "Vuex", "Git"],
+    "salario": "R$ 4.000,00",
+    "modalidade": "Híbrido"
+  },
+  {
+    "id": "v8",
+    "empresa": "WebPioneers",
+    "cargo": "Engenheiro Front-End Sênior",
+    "requisitos": ["JavaScript", "React", "TypeScript", "Next.js", "GraphQL", "Jest"],
+    "salario": "R$ 9.500,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v9",
+    "empresa": "AppFactory",
+    "cargo": "Desenvolvedor UI/UX",
+    "requisitos": ["Figma", "HTML", "CSS", "Sass", "Acessibilidade", "JavaScript"],
+    "salario": "R$ 3.800,00",
+    "modalidade": "Presencial"
+  },
+  {
+    "id": "v10",
+    "empresa": "Fintech Solutions",
+    "cargo": "Desenvolvedor Angular",
+    "requisitos": ["HTML", "CSS", "TypeScript", "Angular", "RxJS", "Git"],
+    "salario": "R$ 4.500,00",
+    "modalidade": "Híbrido"
+  },
+  {
+    "id": "v11",
+    "empresa": "E-Commerce Plus",
+    "cargo": "Estagiário Web Development",
+    "requisitos": ["HTML", "CSS", "Lógica de Programação"],
+    "salario": "R$ 1.500,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v12",
+    "empresa": "CloudNet",
+    "cargo": "Desenvolvedor Front-End Pleno",
+    "requisitos": ["JavaScript", "React", "Redux", "Styled Components", "Webpack"],
+    "salario": "R$ 6.000,00",
+    "modalidade": "Híbrido"
+  },
+  {
+    "id": "v13",
+    "empresa": "GreenTech",
+    "cargo": "Frontend Developer Pleno",
+    "requisitos": ["HTML", "CSS", "JavaScript", "Vue", "Nuxt.js", "Tailwind CSS"],
+    "salario": "R$ 5.500,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v14",
+    "empresa": "HealthApp",
+    "cargo": "Desenvolvedor Mobile Front-End",
+    "requisitos": ["JavaScript", "React Native", "TypeScript", "Context API"],
+    "salario": "R$ 4.200,00",
+    "modalidade": "Presencial"
+  },
+  {
+    "id": "v15",
+    "empresa": "DataViz Inc.",
+    "cargo": "Desenvolvedor Front-End Júnior",
+    "requisitos": ["HTML", "CSS", "JavaScript", "D3.js", "React"],
+    "salario": "R$ 3.600,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v16",
+    "empresa": "EduPlatform",
+    "cargo": "Desenvolvedor Front-End Angular",
+    "requisitos": ["TypeScript", "Angular", "CSS", "HTML", "Git"],
+    "salario": "R$ 3.400,00",
+    "modalidade": "Híbrido"
+  },
+  {
+    "id": "v17",
+    "empresa": "NextGen Media",
+    "cargo": "Especialista em Performance Web",
+    "requisitos": ["JavaScript", "Performance", "Lighthouse", "Web Vitals", "HTML", "CSS"],
+    "salario": "R$ 7.500,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v18",
+    "empresa": "GameStudios",
+    "cargo": "Desenvolvedor Front-End WebGL",
+    "requisitos": ["JavaScript", "Three.js", "WebGL", "HTML5 Canvas", "Math"],
+    "salario": "R$ 6.800,00",
+    "modalidade": "Presencial"
+  },
+  {
+    "id": "v19",
+    "empresa": "ShopMaster",
+    "cargo": "Estagiário Front-End",
+    "requisitos": ["HTML", "CSS", "JavaScript", "Git"],
+    "salario": "R$ 1.300,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v20",
+    "empresa": "AlphaSoftware",
+    "cargo": "Desenvolvedor Front-End Júnior",
+    "requisitos": ["JavaScript", "React", "CSS Modules", "HTML", "Jest"],
+    "salario": "R$ 3.100,00",
+    "modalidade": "Híbrido"
   }
 ]
