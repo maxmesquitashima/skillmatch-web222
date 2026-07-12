@@ -1,0 +1,42 @@
+[
+  {
+    "id": "v1",
+    "empresa": "InovaTech",
+    "cargo": "Desenvolvedor Front-End Júnior",
+    "requisitos": ["HTML", "CSS", "JavaScript", "Flexbox", "Git"],
+    "salario": "R$ 3.000,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v2",
+    "empresa": "AgileLabs",
+    "cargo": "Frontend Developer",
+    "requisitos": ["HTML", "CSS", "JavaScript", "React", "REST APIs"],
+    "salario": "R$ 3.500,00",
+    "modalidade": "Híbrido"
+  },
+  {
+    "id": "v3",
+    "empresa": "DesignHub",
+    "cargo": "Desenvolvedor Web",
+    "requisitos": ["HTML", "Sass", "CSS", "JavaScript", "Acessibilidade"],
+    "salario": "R$ 2.800,00",
+    "modalidade": "Presencial"
+  },
+  {
+    "id": "v4",
+    "empresa": "ByteWorks",
+    "cargo": "Front-End Pleno",
+    "requisitos": ["HTML", "CSS", "JavaScript", "Testing", "Performance"],
+    "salario": "R$ 5.200,00",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": "v5",
+    "empresa": "StartupX",
+    "cargo": "Estagiário Front-End",
+    "requisitos": ["HTML", "CSS", "JavaScript"],
+    "salario": "R$ 1.200,00",
+    "modalidade": "Híbrido"
+  }
+]
