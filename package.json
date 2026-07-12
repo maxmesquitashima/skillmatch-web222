@@ -12,16 +12,16 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxmesquitashima/skillmatch-web.git"
+    "url": "git+https://github.com/maxmesquitashima/skillmatch-web222.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/maxmesquitashima/skillmatch-web/issues"
+    "url": "https://github.com/maxmesquitashima/skillmatch-web222/issues"
   },
-  "homepage": "https://github.com/maxmesquitashima/skillmatch-web#readme",
+  "homepage": "https://github.com/maxmesquitashima/skillmatch-web222#readme",
   "devDependencies": {
     "lighthouse": "^13.4.0"
   }
