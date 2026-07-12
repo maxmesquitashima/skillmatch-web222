@@ -1,0 +1,129 @@
+
+/* Skip link (visually hidden until focused) */
+.skip-link{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{position:static;left:auto;top:auto;width:auto;height:auto;padding:0.5rem;background:#000;color:#fff;border-radius:4px;z-index:9999}
+
+/* Estilos mobile-first para SkillMatch - básico e responsivo */
+:root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --accent:#2b6cb0;
+  --muted:#6b7280;
+  --success:#16a34a;
+  --danger:#ef4444;
+  --text:#111827;
+  --radius:8px;
+  --gap:1rem;
+  --max-width:800px;
+  --content-padding:1rem;
+}
+
+body.dark-mode {
+  --bg: #111827;
+  --card: #1f2937;
+  --accent: #60a5fa;
+  --text: #f9fafb;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.4;
+  position:relative;
+}
+
+/* logo como plano de fundo sutil */
+body::before{
+ content: "";
+ position:fixed;
+ inset:0;
+ background-image: url("../img/logo.png");
+ background-repeat: no-repeat;
+ background-position: center top;
+/* maior tamanho para destaque moderado */
+background-size: 40% auto;
+/* opacidade aumentada para reduzir transparência */
+opacity: 0.10;
+pointer-events: none;
+z-index: 0;
+}
+
+#app{max-width:var(--max-width);margin:0 auto;padding:var(--content-padding);position:relative;z-index:1}
+header{display:flex;align-items:center;gap:1rem;padding:1rem 0;justify-content:space-between}
+.header-left{display:flex;align-items:center;gap:1rem}
+header .logo{width:48px;height:48px;border-radius:6px;object-fit:contain}
+header h1{font-size:1.25rem;margin:0;color:var(--text)}
+
+.theme-toggle{
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--muted);
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: 0;
+  width: auto;
+}
+.theme-toggle:hover{
+  background: rgba(128,128,128,0.1);
+}
+
+main{display:grid;grid-template-columns:1fr;gap:var(--gap)}
+.right-panel{display:flex;flex-direction:column;gap:0.5rem}
+
+/* Formulário */
+#perfil-container form{background:var(--card);padding:1rem;border-radius:var(--radius);box-shadow:0 1px 2px rgba(0,0,0,0.04)}
+fieldset{border:0;padding:0;margin:0}
+label{display:block;font-weight:600;margin-top:0.75rem;color:var(--muted)}
+input[type="text"],input[type="number"],select,button{font-size:1rem;padding:0.6rem;border-radius:6px;border:1px solid #e5e7eb;width:100%;background:var(--card);color:var(--text)}
+input[type="text"]:focus,input[type="number"]:focus,select:focus{outline:3px solid rgba(59,130,246,0.15);border-color:var(--accent)}
+button{background:var(--accent);color:white;border:0;padding:0.65rem 0.8rem;cursor:pointer;margin-top:1rem}
+button:hover{filter:brightness(0.95)}
+
+/* status (aria-live) */
+#status{margin-top:0.5rem;color:var(--muted);font-size:0.95rem;min-height:1.1em}
+
+/* Resultado */
+#resultado{margin-top:1rem}
+.melhor-vaga{background:linear-gradient(90deg,rgba(59,130,246,0.05),transparent);padding:1rem;border-radius:var(--radius);margin-bottom:0.75rem}
+.melhor-vaga h2{margin:0 0 0.5rem 0}
+
+/* Filtros */
+.filters-bar{background:var(--card);padding:1rem;border-radius:var(--radius);box-shadow:0 1px 2px rgba(0,0,0,0.04);margin-bottom:1rem;display:flex;gap:1rem;flex-wrap:wrap;align-items:flex-end}
+.filters-bar .filter-group{flex:1;min-width:150px;}
+
+.vagas-grid{display:flex;flex-direction:column;gap:0.75rem}
+.vaga-card{background:var(--card);padding:0.85rem;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,0.04);display:flex;flex-direction:column;gap:0.25rem;border:1px solid rgba(128,128,128,0.1)}
+.vaga-card h3{margin:0;font-size:1rem}
+.vaga-card p{margin:0;font-size:0.95rem;color:var(--muted)}
+.vaga-card .highlight-tag{display:inline-block;background:var(--accent);color:#fff;padding:0.1rem 0.4rem;border-radius:4px;font-size:0.75rem;margin-bottom:0.25rem;align-self:flex-start}
+
+/* responsividade - maior espaço e grid em colunas a partir de tablet */
+@media(min-width:720px){
+  .vagas-grid{flex-direction:row;flex-wrap:wrap}
+  .vaga-card{flex:1 1 calc(50% - 0.75rem);min-width:220px}
+}
+
+@media(min-width:1024px){
+  .vaga-card{flex:1 1 calc(33.333% - 0.75rem)}
+}
+
+/* foco visível */
+:focus{outline:3px solid rgba(59,130,246,0.15);outline-offset:2px}
+
+/* acessibilidade: reduzir movimento */
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* utilitários */
+.text-muted{color:var(--muted)}
+.small{font-size:0.85rem}
+
+/* rodapé simples */
+footer{margin-top:2rem;padding:1rem 0;font-size:0.85rem;color:var(--muted)}
