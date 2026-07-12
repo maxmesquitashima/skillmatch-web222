@@ -67,8 +67,10 @@ Para o desenvolvimento desta aplicação, utilizei a metodologia Kanban para ger
 
 - **Quadro Kanban:** [Acesse o quadro do SkillMatch aqui] https://trello.com/b/y9d8Mnrf
 
-**Pagina para verificar funcionalidade:** https://maxmesquitashima.github.io/skillmatch-web222/
-
 *Nota: O quadro está configurado como público para fins de avaliação.*
+
+- **Pagina para verificar funcionalidade:** https://maxmesquitashima.github.io/skillmatch-web222/
+
+
 
 **Autor:** Maximiliano / max.shimabucuro@gmail.com
