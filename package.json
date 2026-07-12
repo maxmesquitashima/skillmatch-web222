@@ -1,0 +1,28 @@
+{
+  "name": "skillmatch-web",
+  "version": "1.0.0",
+  "description": "SkillMatch transforma o motor do mini-projeto (comparação de habilidades) em uma aplicação web estática (HTML/CSS/JS puro). Permite que o candidato preencha um perfil, carregue vagas a partir de um JSON local e receba uma análise de compatibilidade com recomendações de estudo.",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server.js",
+  "test:audit": "npx lighthouse http://127.0.0.1:5500 --output html --output-path report.html",
+  "test:audit:verbose": "npx lighthouse http://127.0.0.1:5500 --output html --output-path report.html --verbose",
+  "dev": "browser-sync start --server --files '*.html, *.css, *.js'"
+},
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmesquitashima/skillmatch-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maxmesquitashima/skillmatch-web/issues"
+  },
+  "homepage": "https://github.com/maxmesquitashima/skillmatch-web#readme",
+  "devDependencies": {
+    "lighthouse": "^13.4.0"
+  }
+}
