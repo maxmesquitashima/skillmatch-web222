@@ -1,4 +1,4 @@
-# SkillMatch-Web - Projeto Avaliativo (Módulo 1)
+# SkillMatch-Web 
 
 **connecting talent & opportunity**
 
