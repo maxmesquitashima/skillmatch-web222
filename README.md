@@ -65,11 +65,6 @@ Tudo foi testado, validado, explicado e ajustado para se adequar ao fluxo do apr
 ## 📋 Organização do Projeto
 Para o desenvolvimento desta aplicação, utilizei a metodologia Kanban para gerenciar as tarefas e acompanhar o progresso das funcionalidades.
 
-- **Quadro Kanban:** [Acesse o quadro do SkillMatch aqui] https://trello.com/b/y9d8Mnrf
-
-*Nota: O quadro está configurado como público para fins de avaliação.*
-
-- **Pagina para verificar funcionalidade:** https://maxmesquitashima.github.io/skillmatch-web222/
 
 
 
